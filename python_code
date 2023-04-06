@@ -1,0 +1,37 @@
+#!/bin/python3
+#varraible 
+print("============================")
+print("Develop by sophavin ly 2023")
+print("============================\n")
+print("Varriable in Python ")
+name = "ly sophavin" #String 
+age = 18 #integer 
+height  = 3.2 #float - has Decimal 
+
+print("String " + name)
+print("Integer " + str(age))
+print("Float "+ str(height))
+
+print("=================================================")
+print("Math in python \n")
+print("add  50 + 50: " + str (50 + 50)) #add
+print("subtract 50 - 50: " + str(50 - 50)) #subtract
+print("multiply 50 * 50: " + str (50 * 50)) #multiply
+print("divide 50 / 50: " + str(50 / 50)) #divide
+print("PEMDAS 50 + 50 - 50 * 50 / 50: "+ str(50 + 50 - 50 * 50 / 50)) #PEMDAS 
+print("exponets 50 ** 2: "+ str(50 ** 2)) #exponets
+print("modulo - taek what is left over 50 % 6: "+ str (50 % 6))
+print("division with remainder(or float )  50 / 6: " +str(50 / 6) )
+print("no remainder 50 // 6: "+ str (50 // 6)) # no rimainder 
+print("=================================================")
+print('\n')
+print("String Text in python ")
+word = "I love you "
+print("word given = " + word)
+print("This is upper case word : " + word.upper()) #upper case
+print("This is Lower case word : " + word.lower()) # lower case 
+print("This is title case word : " + word.title()) # title case 
+print("This is Character we count")
+print(len(word)) #count character  
+print("=================================================")
+
