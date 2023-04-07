@@ -33,5 +33,135 @@ print("This is Lower case word : " + word.lower()) # lower case
 print("This is title case word : " + word.title()) # title case 
 print("This is Character we count")
 print(len(word)) #count character  
+print("=================================================\n")
 print("=================================================")
+print("Function")
+print("we use keyword def is the keyword for defining a function\n")
+
+def show():
+    name = "Sophavin"
+    age = 18
+    print("My name is " + name + " and I'm " + str(age) + " years olds.")    
+
+show()
+# we add number we add paremeter
+def add_one_hundred(num):
+    print(num + 100)
+ 
+print("we use function add_one_hundred + 100")
+add_one_hundred(100)    
+
+print("Function add")
+def add(x,y):
+      print(x + y)
+      
+print("add(7,7)")
+add(7,7)
+
+print("Function multiply")
+def multiply(x,y):
+    return x * y
+    
+print("we use function multiply(7,7) ")
+multiply(7,7)
+print(multiply(7,7))
+
+def sqare_root(x):
+         print(x ** .5)
+         
+print("Function sqare_root")       
+sqare_root(64)
+
+def nl(): # new line
+   print('\n')
+
+print("=================================================")
+nl()
+
+print("=================================================")
+print("BOOLEAN EXPRESSIONS {TRUE OR FALSE}")
+
+bool1 = True
+bool2 = 3*3 == 9
+bool3 = False 
+bool4 = 3*3 != 9
+bool5 = "True"
+print("bool1 = True bool2 = 3*3 == 9 bool3 = False  bool4 = 3*3 != 9 bool5 = True \n")
+print("we print conditions as boolean ")
+print(bool1,bool2,bool3,bool4)
+nl()
+print("We can you varrieble of boolean by using keyword type")
+print(type(bool1))
+print(type(bool2))
+print(type(bool5))
+print("=================================================")
+
+print("=================================================")
+print("Relational and boolean operation") 
+print("=================================================")
+greater_than = 7 > 5 
+less_than = 5 < 7 
+greater_than_equal_to = 7 >= 7 
+less_than_equal_to = 7 <= 7
+
+test_and = (7 > 5) and (5 < 7) # True
+test_and2 = (7 > 5) and (5 >7) #False
+test_or = (7 > 5) or (5 < 7) #True 
+test_or2 = (7 > 5) or ( 5 > 7) #True 
+test_not = not True #false
+print("=================================================")
+nl()
+print("CONDITION STSTAMENT if / else \n")
+print("================================")
+def Drink(money):
+      if money >= 2: 
+            return "you got yourself a Drink!"
+      else: 
+            return "NO Drink for You bro!"
+            
+            
+print("if you have 3$")
+print(Drink(3))
+print("=============================")
+print("if you have 1$")
+print(Drink(1))   
+print("=============================")
+nl()
+
+def alcohol(age, money):
+              if(age >= 21) and (money >= 5):
+                 return "We're getting a Drink!"
+              elif(age >= 21 ) and (money < 5):
+                 return "Come back with more Money."
+              elif(age < 21) and (money >= 5):
+                  return "Nice,try kid!" 
+              else:
+                  return "you're too young and too poor."
+
+print("-----------\tCondition can Drink alcohol\t--------------")                 
+print("====================================================")
+print("if you greater than 25 and have money 5$")  
+print(alcohol(21,5))
+print("====================================================")
+print("if you greater than 25 and you have money 4$")
+print(alcohol(21,4))
+print("====================================================")
+print("if you smalless than 25 and you have money 5$")
+print(alcohol(20,5))
+print("====================================================")
+print("if you 20 years olds and you have money 4$")
+print(alcohol(20,4))
+print("====================================================")
+
+
+
+
+
+
+       
+
+
+
+
+
 
