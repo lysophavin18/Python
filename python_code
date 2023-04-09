@@ -153,14 +153,133 @@ print("if you 20 years olds and you have money 4$")
 print(alcohol(20,4))
 print("====================================================")
 
+nl()
+print("====================================================")
+print("-------------------\tList in python\t---------------")
+print("====================================================")
+#list have bracket [] 
+movies = ["Spiderman","Avanger End game","Goodnight mommy","John wich4"]
+print("\t\tList favorite movies\n")
+print("===================================================")
+print("\t\tThe list my fav movies is \n" + str(movies)+ '\n')
+print("===================================================")
 
+print("The first movie is \n" + ">> " + str(movies[0]) + '\n') # the list start from index 0
+print("The Seconds movie is \n" + ">> " + str(movies[1]) + '\n') 
+print("The third movie is \n" + ">> " + str(movies[2]) + '\n')
+print("The fourt movie is \n" + ">> " + str(movies[3]))
+print("\n")
+movies.append("IT")
+print("iteam count "+ str(len(movies)))
+print("We add moive using append keyword \n")
+print(movies)
+print("\nWe can insert movie To what possition you want by using keyword insert\n")
+movies.insert(2,"SuperMan")
+print(movies)
 
+print("\nWe can remove iteam in list by using keyword pop in the last of list ")
+movies.pop()
+print(movies)
 
+nl()
+print("==============")
+print("Loop in python\n for loop \n while")
+print("==============\n")
+print("\tfor loop")
+print("\t--------\n")
+print("--------------------------------")
+print("This is Energy Drink in Cambodia")
+print("--------------------------------")
+fav = ["Coca Cola","Pepsi","Sting","Monster","Caraboa","RedBulll"]
+for x in fav:
+     print(x)
+    
+nl()
+print("\tWhile Loop")
+print("\t----------")
+ 
+ 
+num = 1
 
+while num < 10:
+        print(num)
+        num += 1 
 
+print("\n\t Advance String\n")
+print("\t------------------\n")
+print("I declare my name As Sophavin\nI can print my name as Index of letter\n")
+
+my_name = "Sophavin"
+print("my print my first letter of my name ")
+print("= " + my_name[0] +"\n")
        
+print("and i print my last letter of my name ")
+print("= " + my_name[-1])
 
 
+sentence = "This is Sentence"
+print("i print word This beacause word have 4 index\n")
+print(sentence[:4])
+
+print("\n we Can use keyword split() in python will check space\n")
+print(sentence.split())
+
+sentence_split = sentence.split()
+sentence_join = ' '.join(sentence.split()) 
+print(sentence_join)
+
+quote = "HE said,'Give me all your money'"
+print(quote)
+quote = "He said, \"give me all your money\""
+print(quote)
+
+too_much_space = "                        hello    "
+print(too_much_space.strip())
+
+print("A" in "Apple") #True
+print("a" in "Apple") #False
+
+letter = "A"
+word = "Apple"
+print(letter.lower() in word.lower()) #iproved 
+
+movie = "Legend of chousen"
+print("My favorite movie is {}.".format(movie))
+print("My faveorite movie is %s." % movie)
+print(f"My favorite movie is {movie}.")
+
+
+nl()
+print("\t\tDicitionaries")
+print("\t\t-------------")
+print("\tkey/value pairs {} [] () ")
+
+drinks = {"While Russain": 7, "Old Fashined": 10, "Lemon Drop": 8}
+print(drinks)
+
+employess = {"Finace": ["sophavin"],"IT":["Syber security"]}                           
+print(employess)
+
+employess['legal'] = ["Mr. Robot"]
+print(employess)
+
+drinks['White Cambodia'] = 8
+print(drinks)
+print("\n")
+print(drinks.get("White Cambodia"))
+
+employess.update({"IT":
+[
+"Cyber Security",
+"Webs Developer", 
+"Mobile Development", 
+"Networking", 
+"Data Scient", 
+"Desinger", 
+"FrontEnd ", 
+"BackEnd"]})
+print(employess)
+print("=======================================")
 
 
 
